@@ -479,13 +479,13 @@ section .container {
 # Interests
 --------------------------------------------------------------*/
 .interests .icon-box {
-  display: flex;
-  align-items: center;
-  padding: 20px;
-  background: #09203a;
-  transition: ease-in-out 0.3s;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background: #09203a;
+    transition: ease-in-out 0.3s;
+    min-height: 12em;
 }
-
 
 .interests .icon-box i {
   font-size: 32px;
@@ -497,7 +497,7 @@ section .container {
   font-weight: 700;
   margin: 0;
   padding: 0;
-  line-height: 1;
+  line-height: 1.2;
   font-size: 16px;
   color: #fff;
 }
